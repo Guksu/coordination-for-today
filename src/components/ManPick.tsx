@@ -1,7 +1,15 @@
 import React, { FC } from "react";
 
-const ManPick: FC = () => {
-  return <>남성용</>;
+type Props = {
+  temp: number;
+};
+
+const ManPick: FC<Props> = (props: Props) => {
+  return (
+    <>
+      <h1>남성</h1>
+    </>
+  );
 };
 
 export default ManPick;
