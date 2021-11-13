@@ -10,7 +10,7 @@ const Pick: FC<Props> = (props: Props) => {
   const temp = props.temp;
   return (
     <>
-      <h1>현재온도 : {temp}</h1>
+      <h1>현재온도 : {temp}°C</h1>
       <div>
         선택화면
         {props.gender === "man" && <ManPick temp={temp} />}
